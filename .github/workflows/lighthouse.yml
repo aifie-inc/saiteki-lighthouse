@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Lighthouse CI
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run lighthouse
+        run: npm run lighthouse
+
+      - name: Push reports
+        run: |
+          git config --global user.email "kazumoto@aifie.co.jp"
+          git config --global user.name "lighthouse-ci"
+          git remote set-url origin https://aifie-inc:${{ secrets.GH_PAT }}@github.com/aifie-inc/saiteki-lighthouse
+          git add .
+          git commit -m ":pencil: Update reports [skip ci] [lighthouse]"
+          git push origin master
