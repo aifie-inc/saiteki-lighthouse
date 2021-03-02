@@ -1,0 +1,13 @@
+{
+  "name": "saiteki-lighthouse",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "rmdir": "node -e \"const fs = require('fs'); fs.rmdirSync('reports', { recursive: true });\"",
+    "lighthouse": "npm run rmdir && npx lhci autorun"
+  },
+  "dependencies": {
+    "@lhci/cli": "^0.7.0",
+    "puppeteer": "^8.0.0"
+  }
+}
