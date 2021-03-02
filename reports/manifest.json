@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://lp.saiteki.app/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki_app-_-2021_03_02_02_58_01.report.html",
+    "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki_app-_-2021_03_02_02_58_01.report.json",
+    "summary": {
+      "performance": 0.4,
+      "accessibility": 0.75,
+      "best-practices": 1,
+      "seo": 0.98,
+      "pwa": 0.42
+    }
+  },
+  {
+    "url": "https://lp.saiteki.app/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki_app-_-2021_03_02_02_58_19.report.html",
+    "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki_app-_-2021_03_02_02_58_19.report.json",
+    "summary": {
+      "performance": 0.46,
+      "accessibility": 0.75,
+      "best-practices": 1,
+      "seo": 0.98,
+      "pwa": 0.42
+    }
+  },
+  {
+    "url": "https://lp.saiteki.app/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki_app-_-2021_03_02_02_58_31.report.html",
+    "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki_app-_-2021_03_02_02_58_31.report.json",
+    "summary": {
+      "performance": 0.45,
+      "accessibility": 0.75,
+      "best-practices": 1,
+      "seo": 0.98,
+      "pwa": 0.42
+    }
+  }
+]
