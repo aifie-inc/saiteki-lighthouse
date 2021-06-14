@@ -7,7 +7,7 @@
     "lighthouse": "npm run rmdir && npx lhci autorun"
   },
   "dependencies": {
-    "@lhci/cli": "^0.7.0",
-    "puppeteer": "^8.0.0"
+    "@lhci/cli": "^0.8.0",
+    "puppeteer": "^10.0.0"
   }
 }
