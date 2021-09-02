@@ -1,14 +1,14 @@
 [
   {
-    "url": "https://lp.saiteki.app/",
+    "url": "https://lp.saiteki.site/",
     "isRepresentativeRun": true,
-    "htmlPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki-app.html",
-    "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki-app.json",
+    "htmlPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki-site.html",
+    "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki-site.json",
     "summary": {
-      "performance": 0.55,
-      "accessibility": 0.81,
+      "performance": 0.32,
+      "accessibility": 0.88,
       "best-practices": 1,
-      "seo": 0.93,
+      "seo": 0.79,
       "pwa": 0.42
     }
   }
