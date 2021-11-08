@@ -5,7 +5,7 @@
     "htmlPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki-site.html",
     "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki-site.json",
     "summary": {
-      "performance": 0.53,
+      "performance": 0.54,
       "accessibility": 0.81,
       "best-practices": 1,
       "seo": 0.84,
