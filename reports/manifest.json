@@ -6,7 +6,7 @@
     "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_saiteki-site.json",
     "summary": {
       "performance": 0.26,
-      "accessibility": 0.79,
+      "accessibility": 0.84,
       "best-practices": 1,
       "seo": 0.79,
       "pwa": 0.42
