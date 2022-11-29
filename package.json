@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "rmdir": "node -e \"const fs = require('fs'); fs.rmdirSync('reports', { recursive: true });\"",
+    "rmdir": "node -e \"const fs = require('fs'); fs.rmSync('reports', { recursive: true });\"",
     "lighthouse": "npm run rmdir && npx lhci autorun"
   },
   "dependencies": {
-    "@lhci/cli": "^0.8.0",
-    "puppeteer": "^10.0.0"
+    "@lhci/cli": "^0.10.0"
   }
 }
