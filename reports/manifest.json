@@ -7,7 +7,7 @@
     "summary": {
       "performance": 0.37,
       "accessibility": 0.9,
-      "best-practices": 1,
+      "best-practices": null,
       "seo": 1,
       "pwa": 0.3
     }
