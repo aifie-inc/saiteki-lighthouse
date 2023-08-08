@@ -5,10 +5,10 @@
     "htmlPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_smartlp-site.html",
     "jsonPath": "/home/runner/work/saiteki-lighthouse/saiteki-lighthouse/reports/lp_smartlp-site.json",
     "summary": {
-      "performance": 0.3,
-      "accessibility": 0.9,
+      "performance": 0.25,
+      "accessibility": 0.85,
       "best-practices": 1,
-      "seo": 1,
+      "seo": 0.98,
       "pwa": 0.3
     }
   }
